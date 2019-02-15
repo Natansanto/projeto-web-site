@@ -137,11 +137,11 @@ header#artigo h2{
 }
 
 header#artigo h3{
-  font-size: 12pt;
+  font-size: 11pt;
   color: #606060;
 
 }
-.direita{
+header#artigo .direita{
  text-align: right;
 }
 
