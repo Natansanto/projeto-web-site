@@ -1,25 +1,69 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html>
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <title>Tudo sobre o Google Glass</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="stylesheet" href="_css/media.css">
+</head>
+<script src="_javascript/funcoes.js"></script>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body>
+    <div id="interface">
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <header id="cabecalho">
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+            <img id="icone" src="_imagens/multimidia.png" />
 
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudaFoto('home')" onmouseout="mudaFoto('multimidia')"><a href="index.html">Home</a>
+                    </li>
+                    <li onmouseover="mudaFoto('especificacoes')" onmouseout="mudaFoto('multimidia')"><a
+                            href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('fotos')" onmouseout="mudaFoto('multimidia')"><a
+                            href="fotos.html">Fotos</a>
+                    </li>
+                    <li onmouseover="mudaFoto('multimidia')" onmouseout="mudaFoto('multimidia')"><a
+                            href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('contato')" onmouseout="mudaFoto('multimidia')"><a
+                            href="fale-conosco.html">Fale
+                            conosco</a></li>
+                </ul>
+            </nav>
+        </header>
 
-Áudio e Vídeo
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="artigo">
+                    <h3>Glass > Multimídia</h3>
+                    <h1>Sons e Vídeos</h1>
+                    <h2>Por Natanael Santos</h2>
+                    <h3 class="direita">Atualizado em 01/Fevereiro/2019</h3>
+                </header>
 
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
+                <div id="tv-radio">
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+                    <audio id="musica" controls="controls">
+                        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" />
+                        Desculpe, mas não foi possível carregar o áudio.
+                    </audio>
+                    <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+                        <source src="_media/getting-started.mp4" type="video/mp4" />
+                        Desculpe, mas não foi possível carregar o áudio.
+                    </video>
+                </div>
+        
+            </article>
+        </section>
+        <footer id="rodape">
+            Copyright &copy; 2019 - by Natanael Santos <br>
+            Todos os direitos reservados.
+        </footer>
+    </div>
+</body>
+
+</html>
