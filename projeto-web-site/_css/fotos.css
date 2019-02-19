@@ -108,3 +108,12 @@ ul#album-fotos li#foto06:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+
+footer#rodape{
+    clear: both;
+    border-top:  1px solid #606060;
+    text-align: center;
+    color: #000000;
+    
+  
+  }

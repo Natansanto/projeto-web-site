@@ -254,6 +254,8 @@ footer#rodape{
   clear: both;
   border-top:  1px solid #606060;
   text-align: center;
+  color: #000000;
+  
 
 }
 
@@ -261,3 +263,22 @@ footer#rodape{
   text-align: center;
 }*/
 
+
+video#mini02{
+display: block;
+position: relative;
+left: 0px;
+top: -15px;
+width: 500px;
+
+}
+
+video#mapa{
+  display: block;
+  position: relative;
+  left: 20px;
+  top: -10px;
+  width: 579px;
+   
+
+}
